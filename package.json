@@ -1,0 +1,17 @@
+{
+    "name": "ecomm-app",
+    "version": "1.0.0",
+    "description": "this is sample ecomm application",
+    "main": "Server.js",
+    "scripts": {
+		"start": "NODE_ENV=production node Server.js",
+        "pack": "mkdir -p build && zip -r build/node-helloworld.zip node_modules package.json Server.js index.html app-config.json config-dev.yaml"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "4.15.2",
+        "underscore": "1.8.3",
+        "yamljs": "0.3.0"
+    }
+}

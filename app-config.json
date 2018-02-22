@@ -1,0 +1,4 @@
+{
+	"env_app_name": "ecomm-app",
+	"env_config_server_port": 8080
+}
