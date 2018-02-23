@@ -9,6 +9,7 @@ app.get('/page', function (req, res) {
   	res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-app.listen(8080, function () {
-  	console.log('Ecomm app listening on port 8080!');
+let PORT = 8080;
+app.listen(PORT, function () {
+  	console.log('Ecomm app listening on port ', PORT);
 });

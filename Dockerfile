@@ -10,7 +10,5 @@ RUN unzip  ${APP_PATH}/ecomm-app.zip -d ${APP_PATH}
 
 RUN rm -f ${APP_PATH}/ecomm-app.zip
 
-COPY package.json ${APP_PATH}
-
 EXPOSE 8080
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "start" ]
